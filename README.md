@@ -12,3 +12,13 @@ cd game
 python3 main.py
 ```
 
+# App project configuration in your computer
+
+``` sh
+git clone
+cd app
+source app_env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+deactivate
+```
