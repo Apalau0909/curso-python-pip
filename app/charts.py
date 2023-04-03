@@ -5,7 +5,7 @@ def generate_bar_chart():
   values = [100, 200, 300]
   fig, ax = plt.subplots()
   ax.bar(labels, values)
-  plt.savefig('bar.png')
+  plt.savefig('bar_final_final.png')
   plt.close()
 
 if __name__ == '__main__':
